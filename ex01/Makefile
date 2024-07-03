@@ -2,11 +2,12 @@ CXX = c++
 
 CXXFLAGS = -Wall -Wextra -Werror -std=c++98
 
-NAME = easyfind
+NAME = span
 
-SRCS = main.cpp
+SRCS = main.cpp\
+	Span.cpp
 
-HEADERS = easyfind.hpp
+HEADERS = Span.hpp
 
 OBJS = $(SRCS:%.cpp=%.o)
 
